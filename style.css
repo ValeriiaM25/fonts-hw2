@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    background-color: #454f53;
+    position: relative;
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url(./fonts/ProximaNova-Regular.otf);
+}
+.flex-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: absolute;
+    right: 0;
+    top: 50px;
+    z-index: 1;
+}
+.text {
+    width: 876px;
+    height: 187px;
+    background-color: black;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    width: 812px;
+    height: 76px;
+    background-color: #fabf2d;
+}
+
+.content{
+    height:1000px;
+    width: 1060px;
+    margin-top: 150px;
+    background-color: white;
+}
+.pic-icon {
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+label {
+    padding-top: 45px;
+    font-family: 'Proxima Nova', serif;
+    font-size: 15px;
+    color: rgb(118, 118, 118);
+    letter-spacing: 0.3em;
+    margin: 64px;
+}
+
+.label-text {
+    margin-top: 45px;
+}
+
+input {
+    margin-left: 64px;
+    margin-bottom: 18px;
+    margin-top: 15px;
+    height: 30px;
+    widows: 600px;
+    background-color: black;
+    border: black;
+}
+
+input {
+    height: 52px;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+
+
+}
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
+
+hr {
+    border: 1px solid white;
+    width: 812px;
+    margin-right: 0;
+    opacity: 60%;
+}
+
+.author {
+margin-top: 200px;
+color: rgb(180, 180, 180);
+font-size: 30px;
+font-family: 'Proxima Nova', serif;
+letter-spacing: 0.1em;
+}
+
+div.content p {
+    margin-left: 125px;
+    margin-right: 125px;
+}
+.article-name {
+    font-family: 'Proxima Nova', serif;
+    font-size: 75px;
+    color: black;
+    line-height: 0;
+    text-transform: uppercase;
+}
+
+.second-name {
+    margin-top: 0;
+    font-size: 30px;
+    font-family: "Georgia";
+    color: rgb(143, 143, 143);
+    font-style: italic;
+}
+span {
+    font-style: italic;
+}
+
+.main-info {
+    font-size: 30px;
+    font-family: "Georgia";
+    color: rgb(0, 0, 0);
+    line-height: 1.5;
+    text-align: justify;
+}
